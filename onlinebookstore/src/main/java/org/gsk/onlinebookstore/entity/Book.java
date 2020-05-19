@@ -27,6 +27,7 @@ public class Book {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	private String sku;
+	private String name;
 	private String description;
 	@Column(name = "unit_price")
 	private BigDecimal unitPrice;
